@@ -9,6 +9,7 @@ public:
     bool update();
     double temperature;
     double humidity;
+    bool heater(bool on);
     
 private:
     int address = 0x44;
